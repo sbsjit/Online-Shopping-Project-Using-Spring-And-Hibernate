@@ -9,8 +9,8 @@
 	<name>OnlineShoppingWebapp Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
-	<!--  Properties As to Update the version Easily -->
-	
+	<!-- Properties As to Update the version Easily -->
+
 	<properties>
 		<javaee.version>8.0</javaee.version>
 		<spring.version>5.1.3.RELEASE</spring.version>
@@ -18,7 +18,14 @@
 
 
 	<dependencies>
-	
+		<!-- Linking the backend project -->
+		<dependency>
+			<groupId>com.shreejit</groupId>
+			<artifactId>OnlineShoppingWebappBackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+
 		<!-- JUNIT -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -36,7 +43,7 @@
 			<version>${javaee.version}</version>
 			<scope>provided</scope>
 		</dependency>
-		
+
 		<!-- Java Servlet -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
