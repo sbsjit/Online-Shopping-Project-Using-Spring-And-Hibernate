@@ -1,6 +1,6 @@
 Create TABLE category(
 	
-	id INT NOT NULL AUTO_INCREMENT,
+	id IDENTITY,
 	item_name varchar(50),
 	description varchar(255),
 	image_url varchar(50),

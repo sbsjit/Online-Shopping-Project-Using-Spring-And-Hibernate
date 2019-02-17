@@ -62,7 +62,7 @@ public class Category {
 
 
 
-	
+	//Every entity must have id
 	@Id
 	//"@Generated Value" will make sure the id is the auto-generated field
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
