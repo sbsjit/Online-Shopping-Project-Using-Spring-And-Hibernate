@@ -19,7 +19,7 @@
 		<hibernate.version>5.2.7.FINAL</hibernate.version>
 		<jdbc.version>5.1.3.RELEASE</jdbc.version>
 		<sql.version>5.1.44</sql.version>
-		<h2.version>1.4.196</h2.version>
+		<h2.version>2.1.210</h2.version>
 		<pooling.version>2.1.1</pooling.version>
 	</properties>
 
