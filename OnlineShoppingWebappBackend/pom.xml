@@ -18,7 +18,7 @@
 		<orm.version>5.1.3.RELEASE</orm.version>
 		<hibernate.version>5.2.7.FINAL</hibernate.version>
 		<jdbc.version>5.1.3.RELEASE</jdbc.version>
-		<sql.version>5.1.44</sql.version>
+		<sql.version>8.0.28</sql.version>
 		<h2.version>1.4.196</h2.version>
 		<pooling.version>2.1.1</pooling.version>
 	</properties>
